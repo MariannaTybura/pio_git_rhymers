@@ -9,10 +9,6 @@ class IntLinkedList {
         return i;
     }
 
-    public void setI(int i) {
-        this.i = i;
-    }
-
     public void push(int i) {
         if (last == null)
             last = new Node(i);
